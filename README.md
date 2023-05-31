@@ -35,5 +35,8 @@ Deep Learning and specifically CNNs are used for (1) and (3). Human detection is
 In this project we first try and implement a CNN from scratch , and we have also attempted to use InceptionV3 pre-trained model without its pre-trained weights.Then we use VGG16 and InceptionV3 via transfer learning, where we use bottleneck features as input to our fully connected neural network.
 Finally we take this InceptionV3 model and implement in our algorithm where we input an image and the output shows the classification.
 
+# Results
+Face detection , on a limited test, had a perfect recall. Dog detection worked very well on the limited samples tested. The dog breed classification achieved 81% accuracy among the 133 classes, which we consider is a good result, leading to a usable system.
+
 
  
