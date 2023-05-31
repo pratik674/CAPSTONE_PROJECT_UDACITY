@@ -59,11 +59,11 @@ Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog
 
 Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset. Place it in the repo, at location `path/to/dog-project/bottleneck_features.`
 
-Download the [ResNet-50 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
+Download the [ResNet-50 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) for the dog dataset. Place it in the repo, at location `path/to/dog-project/bottleneck_features.`
 
-Download the [InceptionV3 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)) for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
+Download the [InceptionV3 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)) for the dog dataset. Place it in the repo, at location `path/to/dog-project/bottleneck_features.`
 
-Download the [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz) for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
+Download the [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz) for the dog dataset. Place it in the repo, at location ``path/to/dog-project/bottleneck_features.
 
 ## Licensing and Acknowledgement
 I would like to extend thanks to Udacity( Data Scientist Program) to provide a very smooth and hands on training platform to learn and implement codes pertaining to CNNs
