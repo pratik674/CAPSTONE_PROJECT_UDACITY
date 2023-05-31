@@ -53,14 +53,19 @@ Install the following libraries to use this project:
 
 ## Datasets used
 
-Download the dog dataset [https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dog_images.zip]. Unzip the folder and place it in the repo, at location path/to/dog-project/dog_images.
+Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dog_images.zip). Unzip the folder and place it in the repo, at location `path/to/dog-project/dog_images.`
 
-Download the human dataset. Unzip the folder and place it in the repo, at location [path/to/dog-project/lfw]. If you are using a Windows machine, you are encouraged to use 7zip to extract the folder.
+Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip). Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw.` If you are using a Windows machine, you are encouraged to use 7zip to extract the folder.
 
-Download the VGG-16 bottleneck features for the dog dataset. Place it in the repo, at location [path/to/dog-project/bottleneck_features.]
+Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset. Place it in the repo, at location `path/to/dog-project/bottleneck_features.`
 
-    Download the ResNet-50 bottleneck features for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
+Download the [ResNet-50 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
 
+Download the [InceptionV3 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)) for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
 
+Download the [Xception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz) for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
+
+## Licensing and Acknowledgement
+I would like to extend thanks to Udacity( Data Scientist Program) to provide a very smooth and hands on training platform to learn and implement codes pertaining to CNNs
 
  
