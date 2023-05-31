@@ -15,7 +15,7 @@ In this project, we learn how to build a pipeline to process real-world, user-su
 3. Methodology
 4. Results
 5. Conclusion
-6. Installing libraries 
+6. Libraries installed 
 7. Licensing & Acknowledgment
 
 ## Project Description
@@ -35,8 +35,32 @@ Deep Learning and specifically CNNs are used for (1) and (3). Human detection is
 In this project we first try and implement a CNN from scratch , and we have also attempted to use InceptionV3 pre-trained model without its pre-trained weights.Then we use VGG16 and InceptionV3 via transfer learning, where we use bottleneck features as input to our fully connected neural network.
 Finally we take this InceptionV3 model and implement in our algorithm where we input an image and the output shows the classification.
 
-# Results
+## Results
 Face detection , on a limited test, had a perfect recall. Dog detection worked very well on the limited samples tested. The dog breed classification achieved 81% accuracy among the 133 classes, which we consider is a good result, leading to a usable system.
+
+## Conclusion
+We have used only two models, and we see that transfer learning aids the image classification process. Our use of InceptionV3 model with pretrained weights shows an accuracy of 81%. Also the training and validation accuracy gap is lower which is indicative that the model was not over fitting data. Neverthless there should be further scope to increase the test accuracy and decrease the validation loss. 
+
+## Libraries installed
+Install the following libraries to use this project:
+1. Keras
+2. OpenCV
+3. Matplotlib
+4. NumPy
+5. Tensorflow
+6. glob
+7. Jupyter
+
+## Datasets used
+
+Download the dog dataset [https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dog_images.zip]. Unzip the folder and place it in the repo, at location path/to/dog-project/dog_images.
+
+Download the human dataset. Unzip the folder and place it in the repo, at location [path/to/dog-project/lfw]. If you are using a Windows machine, you are encouraged to use 7zip to extract the folder.
+
+Download the VGG-16 bottleneck features for the dog dataset. Place it in the repo, at location [path/to/dog-project/bottleneck_features.]
+
+    Download the ResNet-50 bottleneck features for the dog dataset. Place it in the repo, at location path/to/dog-project/bottleneck_features.
+
 
 
  
